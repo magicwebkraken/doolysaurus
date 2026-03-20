@@ -39638,7 +39638,7 @@ const rF = ({
         {
           name: n("community.xCommunity", "X Community"),
           icon: mR,
-          href: "https://x.com/doolysaurus_X",
+          href: "https://x.com/i/communities/2035034823962894580",
           color: "bg-forest hover:bg-forest-dark",
           desc: n("community.followJourney", "Follow Punch's journey"),
         },
