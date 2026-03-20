@@ -41881,7 +41881,7 @@ const dB = { home: "Home", sanctuary: "Sanctuary", photoBooth: "Photo Booth" },
     welcome: "Welcome to",
     sanctuary: "Doolysaurus",
     tagline:
-      "Dolysaurus who is the dinosaur that is said to have once lived in Korea, they even have cartoon about this.",
+      "Doolysaurus who is the dinosaur that is said to have once lived in Korea, they even have cartoon about this.",
     story: "A story of resilience & friendship",
     scroll: "Scroll to explore",
   },
@@ -41890,7 +41890,7 @@ const dB = { home: "Home", sanctuary: "Sanctuary", photoBooth: "Photo Booth" },
     paragraph1:
       "Scientists in South Korea discovered their first Dinosour species in last 15 years and this is getting crazily viral all over the Korea.",
     paragraph2:
-      "They named him Dooly - Dolysaurus who is the dinosaur that is said to have once lived in Korea, they even have cartoon about this.",
+      "They named him Dooly - Doolysaurus who is the dinosaur that is said to have once lived in Korea, they even have cartoon about this.",
     paragraph3:
       "$Doolysaurus humini is a newly discovered mid-Cretaceous dinosaur from South Korea.",
     quote: "",
@@ -41904,7 +41904,7 @@ const dB = { home: "Home", sanctuary: "Sanctuary", photoBooth: "Photo Booth" },
     post1: "Doolysaurus",
     post2: "Korean dinosaur",
     post3: "Doolysaurus huhmini  ",
-    post4: "first Dinosaur",
+    post4: "First Dinosaur",
   },
   mB = {
     title: "How to Buy",
