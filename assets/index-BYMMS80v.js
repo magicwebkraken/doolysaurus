@@ -40330,72 +40330,7 @@ const rF = ({
       s = (i) => {
         t.changeLanguage(i), n(!1);
       };
-    return p.jsxs("div", {
-      className: "fixed top-4 right-4 z-50",
-      children: [
-        p.jsxs("div", {
-          className: "relative",
-          children: [
-            p.jsxs("button", {
-              onClick: () => n(!e),
-              className:
-                "flex items-center gap-2 px-3 py-2 bg-cream rounded-full paper-shadow hover:bg-cream-dark transition-colors",
-              children: [
-                p.jsx(lR, { className: "w-4 h-4 text-forest" }),
-                p.jsx("span", {
-                  className: "text-sm font-body text-forest-dark",
-                  children: r.flag,
-                }),
-                p.jsx(ZA, {
-                  className: `w-3 h-3 text-forest transition-transform ${
-                    e ? "rotate-180" : ""
-                  }`,
-                }),
-              ],
-            }),
-            p.jsx(ok, {
-              children:
-                e &&
-                p.jsx(q.div, {
-                  initial: { opacity: 0, y: -10, scale: 0.95 },
-                  animate: { opacity: 1, y: 0, scale: 1 },
-                  exit: { opacity: 0, y: -10, scale: 0.95 },
-                  transition: { duration: 0.2 },
-                  className:
-                    "absolute top-full right-0 mt-2 bg-cream rounded-xl paper-shadow overflow-hidden min-w-[140px]",
-                  children: zh.map((i) =>
-                    p.jsxs(
-                      "button",
-                      {
-                        onClick: () => s(i.code),
-                        className: `w-full flex items-center gap-3 px-4 py-2.5 text-left hover:bg-cream-dark transition-colors ${
-                          r.code === i.code ? "bg-forest-light/20" : ""
-                        }`,
-                        children: [
-                          p.jsx("span", {
-                            className: "text-lg",
-                            children: i.flag,
-                          }),
-                          p.jsx("span", {
-                            className: "text-sm font-body text-forest-dark",
-                            children: i.name,
-                          }),
-                        ],
-                      },
-                      i.code
-                    )
-                  ),
-                }),
-            }),
-          ],
-        }),
-        e &&
-          p.jsx("div", {
-            className: "fixed inset-0 z-[-1]",
-            onClick: () => n(!1),
-          }),
-      ],
-    });
+    
   },
   Fg = () => {
     const { t } = It(),
