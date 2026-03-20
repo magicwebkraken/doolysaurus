@@ -39335,11 +39335,7 @@ const rF = ({
                   "font-storybook text-4xl md:text-5xl text-forest-dark mb-4",
                 children: n("twitter.title"),
               }),
-              p.jsx("p", {
-                className:
-                  "font-body text-lg text-muted-foreground max-w-xl mx-auto",
-                children: n("twitter.subtitle"),
-              }),
+
             ],
           }),
           p.jsx("div", {
