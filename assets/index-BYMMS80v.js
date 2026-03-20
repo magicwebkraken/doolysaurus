@@ -39286,17 +39286,7 @@ const rF = ({
                               "font-storybook text-sm text-cardboard-dark text-center mb-2",
                             children: n(s.textKey),
                           }),
-                          p.jsxs("div", {
-                            className:
-                              "flex items-center justify-center gap-1 text-mushroom",
-                            children: [
-                              p.jsx(nr, { className: "w-3 h-3 fill-current" }),
-                              p.jsx("span", {
-                                className: "text-xs font-body",
-                                children: s.likes,
-                              }),
-                            ],
-                          }),
+                          
                         ],
                       }),
                     ],
