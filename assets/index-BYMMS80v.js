@@ -39711,18 +39711,7 @@ const rF = ({
                       )
                     ),
                   }),
-                  p.jsx(q.div, {
-                    className:
-                      "mt-8 pt-6 border-t border-cardboard-light/50 text-center",
-                    initial: { opacity: 0 },
-                    animate: e ? { opacity: 1 } : {},
-                    transition: { duration: 0.8, delay: 0.8 },
-                    children: p.jsxs("p", {
-                      className:
-                        "font-storybook text-lg text-cardboard-dark italic",
-                      children: ['"', n("tokenomics.note"), '" 🐵💕'],
-                    }),
-                  }),
+                  
                 ],
               }),
             ],
