@@ -39214,7 +39214,7 @@ const rF = ({
               v
             );
             const w = await fetch(
-              "https://api.dexscreener.com/latest/dex/tokens/0xComingSoon"
+              "https://api.dexscreener.com/latest/dex/tokens/0x174985979b3030d09672fea5e0564a5d59ddec40"
             );
             if (!w.ok) throw new Error("DexScreener request failed");
             const S = await w.json();
@@ -39236,7 +39236,7 @@ const rF = ({
             console.warn("Cache returned zeros, trying DexScreener fallback");
             const S = await (
               await fetch(
-                "https://api.dexscreener.com/latest/dex/tokens/0xComingSoon"
+                "https://api.dexscreener.com/latest/dex/tokens/0x174985979b3030d09672fea5e0564a5d59ddec40"
               )
             ).json();
             if (S.pairs && S.pairs.length > 0) {
@@ -39406,7 +39406,7 @@ const rF = ({
       e = Oo(t, { once: !0, margin: "-100px" }),
       [n, r] = b.useState(!1),
       { t: s } = It(),
-      i = "0xComingSoon",
+      i = "0x174985979b3030d09672fea5e0564a5d59ddec40",
       o = () => {
         navigator.clipboard.writeText(i),
           r(!0),
@@ -39561,7 +39561,7 @@ const rF = ({
             children: [
               
               p.jsxs("a", {
-                href: "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xComingSoon",
+                href: "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0x174985979b3030d09672fea5e0564a5d59ddec40",
                 target: "_blank",
                 rel: "noopener noreferrer",
                 className:
@@ -39572,7 +39572,7 @@ const rF = ({
                 ],
               }),
               p.jsxs("a", {
-                href: "https://dexscreener.com/ethereum/0xComingSoon",
+                href: "https://dexscreener.com/ethereum/0x174985979b3030d09672fea5e0564a5d59ddec40",
                 target: "_blank",
                 rel: "noopener noreferrer",
                 className:
@@ -39856,7 +39856,7 @@ const rF = ({
     { src: Dg, caption: "Best friends forever 🧸" },
     { src: Zk, caption: "Cozy moments 💕" },
     { src: e_, caption: "Sanctuary life 🌸" },
-    { src: t_, caption: "Feeling safe 0xComingSoon🐵" },
+    { src: t_, caption: "Feeling safe 0x174985979b3030d09672fea5e0564a5d59ddec40🐵" },
     { src: dF, caption: "Making friends 🤝" },
     { src: hF, caption: "Curious explorer 👀" },
     { src: fF, caption: "Family time 🐒" },
