@@ -28123,12 +28123,6 @@ const J4 = (t, e) =>
                   }),
                 ],
               }),
-              p.jsx(q.div, {
-                className: "absolute -right-6 -bottom-4 text-4xl",
-                animate: { y: [0, -5, 0], rotate: [0, 5, 0] },
-                transition: { duration: 3, repeat: 1 / 0, ease: "easeInOut" },
-                children: "🧸",
-              }),
             ],
           }),
           p.jsx(q.div, {
