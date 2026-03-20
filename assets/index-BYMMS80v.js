@@ -25336,100 +25336,16 @@ const Ig = () =>
     p.jsxs("div", {
       className: "fixed inset-0 w-full h-full overflow-hidden -z-10",
       children: [
-        p.jsx("div", {
-          className:
-            "absolute inset-0 bg-gradient-to-b from-sky-light via-sky to-cream",
-        }),
-        p.jsx("div", {
-          className:
-            "absolute top-0 left-1/4 w-96 h-[600px] bg-gradient-to-b from-cream/40 to-transparent transform -rotate-12 blur-xl",
-        }),
-        p.jsx("div", {
-          className:
-            "absolute top-0 right-1/3 w-64 h-[500px] bg-gradient-to-b from-cream/30 to-transparent transform rotate-6 blur-xl",
-        }),
-        p.jsx(q.div, {
-          className: "absolute top-16 left-[10%] w-32 h-12 animate-float-slow",
-          initial: { opacity: 0 },
-          animate: { opacity: 1 },
-          transition: { delay: 0.2 },
-          children: p.jsx(Th, {
-            className: "w-full h-full text-cream opacity-90",
-          }),
-        }),
-        p.jsx(q.div, {
-          className:
-            "absolute top-24 right-[15%] w-24 h-10 animate-float-gentle",
-          initial: { opacity: 0 },
-          animate: { opacity: 1 },
-          transition: { delay: 0.4 },
-          children: p.jsx(Th, {
-            className: "w-full h-full text-cream opacity-80",
-          }),
-        }),
-        p.jsx(q.div, {
-          className: "absolute top-40 left-[60%] w-20 h-8 animate-float-slow",
-          style: { animationDelay: "2s" },
-          initial: { opacity: 0 },
-          animate: { opacity: 1 },
-          transition: { delay: 0.6 },
-          children: p.jsx(Th, { className: "w-full h-full text-cream/70" }),
-        }),
-        p.jsx("div", {
-          className: "absolute bottom-0 left-0 right-0 h-[60%]",
-          children: p.jsxs("svg", {
-            viewBox: "0 0 1440 600",
-            className: "absolute bottom-0 w-full h-full",
-            preserveAspectRatio: "xMidYMax slice",
-            children: [
-              p.jsx("path", {
-                d: "M0,600 L0,350 Q60,280 120,350 Q180,260 240,350 Q300,290 360,350 Q420,240 480,350 Q540,300 600,350 Q660,270 720,350 Q780,290 840,350 Q900,250 960,350 Q1020,280 1080,350 Q1140,300 1200,350 Q1260,270 1320,350 Q1380,290 1440,350 L1440,600 Z",
-                className: "fill-forest-dark",
-              }),
-              p.jsx("path", {
-                d: "M0,600 L0,400 Q80,320 160,400 Q240,340 320,400 Q400,300 480,400 Q560,350 640,400 Q720,310 800,400 Q880,340 960,400 Q1040,300 1120,400 Q1200,350 1280,400 Q1360,320 1440,400 L1440,600 Z",
-                className: "fill-forest",
-              }),
-              p.jsx("path", {
-                d: "M0,600 L0,450 Q100,380 200,450 Q300,400 400,450 Q500,360 600,450 Q700,400 800,450 Q900,370 1000,450 Q1100,410 1200,450 Q1300,380 1440,450 L1440,600 Z",
-                className: "fill-forest-light",
-              }),
-            ],
-          }),
-        }),
-        p.jsx("div", {
-          className:
-            "absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-cardboard-dark via-cardboard to-cardboard-light",
-        }),
-        p.jsx("div", {
-          className: "absolute bottom-20 left-[8%]",
-          children: p.jsx(lc, { className: "w-12 h-16 animate-sway" }),
-        }),
-        p.jsx("div", {
-          className: "absolute bottom-16 left-[15%]",
-          children: p.jsx(lc, {
-            className: "w-8 h-12 animate-sway",
-            style: { animationDelay: "1s" },
-          }),
-        }),
-        p.jsx("div", {
-          className: "absolute bottom-20 right-[12%]",
-          children: p.jsx(lc, {
-            className: "w-10 h-14 animate-sway",
-            style: { animationDelay: "2s" },
-          }),
-        }),
-        p.jsx("div", {
-          className: "absolute bottom-16 right-[20%]",
-          children: p.jsx(lc, {
-            className: "w-6 h-10 animate-sway",
-            style: { animationDelay: "0.5s" },
-          }),
-        }),
-        p.jsx("div", {
-          className:
-            "absolute inset-0 opacity-[0.03] bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48ZmlsdGVyIGlkPSJub2lzZSI+PGZlVHVyYnVsZW5jZSB0eXBlPSJmcmFjdGFsTm9pc2UiIGJhc2VGcmVxdWVuY3k9IjAuOCIgbnVtT2N0YXZlcz0iNCIgc3RpdGNoVGlsZXM9InN0aXRjaCIvPjwvZmlsdGVyPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbHRlcj0idXJsKCNub2lzZSkiIG9wYWNpdHk9IjEiLz48L3N2Zz4=')]",
-        }),
+        p.jsxs("div", {
+          className: "fixed inset-0 w-full h-full overflow-hidden -z-10",
+          children: [
+            p.jsx("img", {
+              src: "/assets/background.png", // replace with your image
+              alt: "background",
+              className: "w-full h-full object-cover",
+            }),
+          ],
+        })
       ],
     }),
   Th = ({ className: t }) =>
