@@ -42024,7 +42024,7 @@ const dB = { home: "Home", sanctuary: "Sanctuary", photoBooth: "Photo Booth" },
       "A % of creator fees is being donated directly to Punch & the Ichikawa City Zoo 🌿",
     disclaimer: "Not financial advice. Just cozy vibes.",
   },
-  xB = { buy: "Buy $PUNCH" },
+  xB = { buy: "Buy $Doolysaurus" },
   bB = {
     backHome: "Back to Home",
     title: "The Sanctuary",
